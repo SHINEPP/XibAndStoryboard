@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TestCustom">
+            <connections>
+                <outlet property="container1View" destination="xGC-kU-fd3" id="WpO-c7-ilk"/>
+                <outlet property="container2View" destination="eW4-BH-jZw" id="pXE-9G-nKg"/>
+                <outlet property="titleLabel" destination="HBy-2B-FHf" id="Aqm-dl-WXp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TestCustom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HBy-2B-FHf">
+                    <rect key="frame" x="60" y="48" width="92" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xGC-kU-fd3">
+                    <rect key="frame" x="0.0" y="69" width="100" height="30"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="RIZ-YS-Tsm"/>
+                        <constraint firstAttribute="width" constant="100" id="lK2-z5-wl0"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eW4-BH-jZw">
+                    <rect key="frame" x="108" y="69" width="100" height="30"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="m0H-iN-Tii"/>
+                        <constraint firstAttribute="width" constant="100" id="y6r-m5-anh"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="HBy-2B-FHf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="60" id="Paa-T0-fu2"/>
+                <constraint firstItem="eW4-BH-jZw" firstAttribute="top" secondItem="HBy-2B-FHf" secondAttribute="bottom" id="cie-Rq-seS"/>
+                <constraint firstItem="xGC-kU-fd3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="e02-FV-96R"/>
+                <constraint firstItem="xGC-kU-fd3" firstAttribute="top" secondItem="HBy-2B-FHf" secondAttribute="bottom" id="hCq-dT-dpV"/>
+                <constraint firstItem="HBy-2B-FHf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="48" id="hZV-VD-g1s"/>
+                <constraint firstItem="eW4-BH-jZw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="108" id="sUO-3c-eya"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
