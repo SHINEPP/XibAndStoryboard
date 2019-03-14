@@ -14,7 +14,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="TestView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -52,11 +52,29 @@
                                     <action selector="openStoryboard2Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TRs-t5-6Wa"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eqj-IJ-nCP">
+                                <rect key="frame" x="16" y="526.5" width="168" height="30"/>
+                                <state key="normal" title="Push TestViewController"/>
+                                <connections>
+                                    <action selector="pushTestViewControllerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gz2-7X-SJs"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cMT-TP-UAA" customClass="TestView">
+                                <rect key="frame" x="162.5" y="627" width="50" height="20"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="GG9-2S-Mxc"/>
+                                    <constraint firstAttribute="height" constant="20" id="UiS-b1-UVQ"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="cMT-TP-UAA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1fp-n4-Q0T"/>
+                            <constraint firstItem="Eqj-IJ-nCP" firstAttribute="top" secondItem="DY1-9e-0VH" secondAttribute="bottom" constant="32" id="7Y4-vO-2Jz"/>
                             <constraint firstItem="Gif-E8-yxN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CSd-Tv-vgl"/>
                             <constraint firstItem="QdQ-hY-7LW" firstAttribute="top" secondItem="Gif-E8-yxN" secondAttribute="bottom" constant="34" id="Gdg-wN-4hy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cMT-TP-UAA" secondAttribute="bottom" constant="20" id="IME-se-cQS"/>
                             <constraint firstItem="DY1-9e-0VH" firstAttribute="leading" secondItem="6Ue-1c-emd" secondAttribute="leading" id="KP8-5f-MM8"/>
                             <constraint firstItem="hst-l2-yac" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MwE-Yw-kyp"/>
                             <constraint firstItem="QdQ-hY-7LW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P3f-Y4-fxm"/>
@@ -67,6 +85,8 @@
                             <constraint firstItem="hst-l2-yac" firstAttribute="top" secondItem="QdQ-hY-7LW" secondAttribute="bottom" constant="20" id="klC-ZJ-a9N"/>
                             <constraint firstItem="6Ue-1c-emd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="ldl-8y-wrD"/>
                             <constraint firstItem="Gif-E8-yxN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="180" id="ly9-CP-IZH"/>
+                            <constraint firstItem="Eqj-IJ-nCP" firstAttribute="leading" secondItem="DY1-9e-0VH" secondAttribute="leading" id="pN0-l9-OJI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Eqj-IJ-nCP" secondAttribute="trailing" symbolic="YES" id="urm-BY-RBU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

@@ -37,11 +37,11 @@
     NSLog(@"TestCustom, setup, view = %@, titleLabel = %@", self.view, self.titleLabel);
     
     Test1View *view1 = [Test1View view];
-    view1.frame = CGRectMake(0, 0, 100, 40);
+    view1.frame = CGRectMake(0, 0, 100, 20);
     [self.container1View addSubview:view1];
     
     Test2View *view2 = [Test2View view];
-    view2.frame = CGRectMake(0, 0, 100, 40);
+    view2.frame = CGRectMake(0, 0, 100, 20);
     [self.container2View addSubview:view2];
 }
 

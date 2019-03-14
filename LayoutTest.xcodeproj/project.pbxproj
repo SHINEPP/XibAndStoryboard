@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		950351A72237AFB900DDA134 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 950351A62237AFB900DDA134 /* TestView.m */; };
+		950351AE223941B100DDA134 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 950351AC223941B100DDA134 /* TestViewController.m */; };
+		950351AF223941B100DDA134 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 950351AD223941B100DDA134 /* TestViewController.xib */; };
 		9525D6AC22312E5B00219586 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9525D6AB22312E5B00219586 /* AppDelegate.m */; };
 		9525D6AF22312E5B00219586 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9525D6AE22312E5B00219586 /* ViewController.m */; };
 		9525D6B222312E5B00219586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525D6B022312E5B00219586 /* Main.storyboard */; };
@@ -25,6 +28,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		950351A52237AFB900DDA134 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		950351A62237AFB900DDA134 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		950351AB223941B100DDA134 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		950351AC223941B100DDA134 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		950351AD223941B100DDA134 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		9525D6A722312E5B00219586 /* LayoutTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9525D6AA22312E5B00219586 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9525D6AB22312E5B00219586 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,6 +91,8 @@
 			children = (
 				95EA8CCE223270BD007B699B /* XibTest */,
 				95EA8CE822327141007B699B /* StoryboardTest */,
+				950351A52237AFB900DDA134 /* TestView.h */,
+				950351A62237AFB900DDA134 /* TestView.m */,
 				9525D6AA22312E5B00219586 /* AppDelegate.h */,
 				9525D6AB22312E5B00219586 /* AppDelegate.m */,
 				9525D6B322312E5E00219586 /* Assets.xcassets */,
@@ -105,6 +115,9 @@
 				95EA8CDC223270D4007B699B /* TestCustom.h */,
 				95EA8CD6223270D4007B699B /* TestCustom.m */,
 				95EA8CDD223270D4007B699B /* TestCustom.xib */,
+				950351AB223941B100DDA134 /* TestViewController.h */,
+				950351AC223941B100DDA134 /* TestViewController.m */,
+				950351AD223941B100DDA134 /* TestViewController.xib */,
 			);
 			path = XibTest;
 			sourceTree = "<group>";
@@ -186,6 +199,7 @@
 				9525D6B722312E5E00219586 /* LaunchScreen.storyboard in Resources */,
 				95EA8CEA22327424007B699B /* StoryboardTest.storyboard in Resources */,
 				9525D6B422312E5E00219586 /* Assets.xcassets in Resources */,
+				950351AF223941B100DDA134 /* TestViewController.xib in Resources */,
 				9525D6B222312E5B00219586 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,9 +215,11 @@
 				9525D6BA22312E5E00219586 /* main.m in Sources */,
 				95EA8CE4223270D4007B699B /* Test1View.m in Sources */,
 				95EA8CE2223270D4007B699B /* TestCustom.m in Sources */,
+				950351AE223941B100DDA134 /* TestViewController.m in Sources */,
 				9525D6C22231329900219586 /* Tab1ViewController.m in Sources */,
 				95EA8CE0223270D4007B699B /* Test2View.m in Sources */,
 				9525D6C5223132A900219586 /* Tab2ViewController.m in Sources */,
+				950351A72237AFB900DDA134 /* TestView.m in Sources */,
 				9525D6AC22312E5B00219586 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
